@@ -1,0 +1,145 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    font-family: 'Rock Salt';
+    background-color: #0056b3; /* Blue background */
+    color: white;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center; /* Vertically center items */
+    padding: 20px 10px;
+}
+
+header .logo {
+    display: block;
+    margin: 0; /* Remove auto margin */
+    max-width: 100px;
+}
+
+header nav {
+    display: flex; /* Use flexbox for horizontal layout */
+    margin: 10px; /* Remove top margin */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0% 20px; /* Adjust spacing between links */
+    font-weight: normal;
+    
+}
+
+header nav a:hover {
+    background-color: beige;
+    color: steelblue;
+    padding: 0px;
+}
+/* Main content sections */
+.contentone {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contenttwo {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of elements */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contentone img {
+    max-width: 350px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.contenttwo img {
+    max-width: 400px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.contentone p, .contenttwo p {
+    flex: 1;
+    margin: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #003366; /* Darker blue */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffd700; /* Gold */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contentone, .contenttwo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contentone img, .contenttwo img {
+        margin: 0 auto 10px;
+    }
+    header nav {
+        flex-direction: column; /* Stack links vertically on smaller screens */
+        align-items: center;
+    }
+
+    header nav a {
+        margin: 5px 0; /* Adjust spacing between links on smaller screens */
+    }
+}
