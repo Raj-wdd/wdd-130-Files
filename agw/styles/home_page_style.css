@@ -14,7 +14,7 @@ body {
 header {
     font-family: 'Rock Salt';
     background-color: #0056b3; /* Blue background */
-    color: white;
+    color: aquamarine;
     display: flex; /* Use flexbox for horizontal layout */
     justify-content: space-between; /* Align items to the left and right */
     align-items: center; /* Vertically center items */
