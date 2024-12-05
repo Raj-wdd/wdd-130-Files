@@ -4,7 +4,7 @@
 body {
     font-family: Helvetica;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
@@ -13,40 +13,40 @@ body {
 /* Header styles */
 header {
     font-family: 'Rock Salt';
-    background-color: #0056b3; /* Blue background */
+    background-color: #0056b3;
     color: aquamarine;
-    display: flex; /* Use flexbox for horizontal layout */
-    justify-content: space-between; /* Align items to the left and right */
-    align-items: center; /* Vertically center items */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 10px;
     text-align: center;
 }
 
 header .logo {
     display: block;
-    margin: 0; /* Remove auto margin */
+    margin: 0; 
     max-width: 100px;
 }
 
 header nav {
-    display: flex; /* Use flexbox for horizontal layout */
-    margin: 10px; /* Remove top margin */
+    display: flex;
+    margin: 10px; 
 }
 
 header nav a {
     color: white;
     text-decoration: none;
-    margin: 0% 20px; /* Adjust spacing between links */
+    margin: 0% 20px; 
     font-weight: normal;
+    padding: 15px;
     
 }
 
 header nav a:hover {
     background-color: beige;
     color: steelblue;
-    padding: 0px;
 }
-/* Main content sections */
+
 .contentone {
     font-family: Helvetica;
     display: flex;
@@ -64,7 +64,7 @@ header nav a:hover {
 .contenttwo {
     font-family: Helvetica;
     display: flex;
-    flex-direction: row-reverse; /* Reverse the order of elements */
+    flex-direction: row-reverse; 
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -76,7 +76,7 @@ header nav a:hover {
 }
 
 .contentone img {
-    max-width: 350px;
+    max-width: 400px;
     margin-right: 20px;
     border-radius: 5px;
 }
