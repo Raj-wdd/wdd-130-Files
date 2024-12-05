@@ -18,7 +18,7 @@ header {
     display: flex; /* Use flexbox for horizontal layout */
     justify-content: space-between; /* Align items to the left and right */
     align-items: center; /* Vertically center items */
-    padding: 20px 20px;
+    padding: 20px 10px;
     text-align: center;
 }
 
@@ -31,7 +31,6 @@ header .logo {
 header nav {
     display: flex; /* Use flexbox for horizontal layout */
     margin: 10px; /* Remove top margin */
-    padding: 0px;
 }
 
 header nav a {
@@ -39,7 +38,6 @@ header nav a {
     text-decoration: none;
     margin: 0% 20px; /* Adjust spacing between links */
     font-weight: normal;
-    padding: 0px;
     
 }
 
